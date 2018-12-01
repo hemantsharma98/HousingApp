@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,17,0,0,2,50"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="bathroomLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="bathroomTf" min="-2" pref="180" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="bedroomLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="bedroomTf" min="-2" pref="180" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="countyLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="countyCb" min="-2" pref="180" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="typeLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="typeCb" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="ownerLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="ownerTf" min="-2" pref="180" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="fpriceLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="fpriceTf" min="-2" pref="180" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="mpriceLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="mpriceTf" min="-2" pref="180" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="yearsLbl" min="-2" pref="130" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="yearsTf" min="-2" pref="180" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jSeparator1" max="32767" attributes="0"/>
+                      <Component id="fixedBtn" alignment="0" max="32767" attributes="0"/>
+                      <Component id="mortgageBtn" max="32767" attributes="0"/>
+                      <Component id="ownerLbl1" max="32767" attributes="0"/>
+                      <Component id="addBtn" max="32767" attributes="0"/>
+                      <Component id="fviewBtn" pref="140" max="32767" attributes="0"/>
+                      <Component id="searchBtn" alignment="0" pref="140" max="32767" attributes="0"/>
+                      <Component id="deleteBtn" alignment="0" pref="140" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="26" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ownerLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="ownerTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ownerLbl1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="typeLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="typeCb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fixedBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="countyLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="countyCb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="mortgageBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bedroomLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="bedroomTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bathroomLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="bathroomTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="addBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="fpriceLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="fpriceTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fviewBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mpriceLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="mpriceTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="searchBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="yearsLbl" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="yearsTf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="deleteBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="42" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ee" green="0" red="62" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="backBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="182" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="backBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Broadway" size="24" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="BUYING"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="backBtn">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="fc" green="86" red="bb" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="BACK"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backBtnActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="ownerLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Owner:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="typeLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Type:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="countyLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="County:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bedroomLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bedrooms:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bathroomLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bathrooms:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mpriceLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mortgage Price:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="yearsLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Years:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ownerTf">
+        </Component>
+        <Component class="javax.swing.JTextField" name="bedroomTf">
+        </Component>
+        <Component class="javax.swing.JTextField" name="bathroomTf">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bathroomTfActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="mpriceTf">
+        </Component>
+        <Component class="javax.swing.JTextField" name="yearsTf">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="countyCb">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="32">
+                <StringItem index="0" value="Antrim"/>
+                <StringItem index="1" value="Armagh"/>
+                <StringItem index="2" value="Carlow"/>
+                <StringItem index="3" value="Cavan"/>
+                <StringItem index="4" value="Clare"/>
+                <StringItem index="5" value="Cork"/>
+                <StringItem index="6" value="Derry"/>
+                <StringItem index="7" value="Donegal"/>
+                <StringItem index="8" value="Down"/>
+                <StringItem index="9" value="Dublin"/>
+                <StringItem index="10" value="Fermanagh"/>
+                <StringItem index="11" value="Galway"/>
+                <StringItem index="12" value="Kerry"/>
+                <StringItem index="13" value="Kildare"/>
+                <StringItem index="14" value="Kilkenny"/>
+                <StringItem index="15" value="Laois"/>
+                <StringItem index="16" value="Leitrim"/>
+                <StringItem index="17" value="Limerick"/>
+                <StringItem index="18" value="Longford"/>
+                <StringItem index="19" value="Louth"/>
+                <StringItem index="20" value="Mayo"/>
+                <StringItem index="21" value="Meath"/>
+                <StringItem index="22" value="Monaghan"/>
+                <StringItem index="23" value="Offaly"/>
+                <StringItem index="24" value="Roscommon"/>
+                <StringItem index="25" value="Sligo"/>
+                <StringItem index="26" value="Tipperary"/>
+                <StringItem index="27" value="Tyrone"/>
+                <StringItem index="28" value="Waterford"/>
+                <StringItem index="29" value="Westmeath"/>
+                <StringItem index="30" value="Wexford"/>
+                <StringItem index="31" value="Wicklow"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="fixedBtn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="86" red="bb" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fixed Price"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fixedBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="mortgageBtn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="86" red="bb" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Mortgage"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mortgageBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="addBtn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="86" red="bb" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add Record"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="fviewBtn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="86" red="bb" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="View Record"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fviewBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="typeCb">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="House"/>
+                <StringItem index="1" value="Apartment"/>
+                <StringItem index="2" value="Studio"/>
+                <StringItem index="3" value="Flat"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ownerLbl1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Choose an Option!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="fpriceLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fixed Price:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fpriceTf">
+        </Component>
+        <Component class="javax.swing.JButton" name="searchBtn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="86" red="bb" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search Record"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="deleteBtn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fc" green="86" red="bb" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Delete Record"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteBtnActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
